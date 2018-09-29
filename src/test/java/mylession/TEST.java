@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import utils.SwitchExplore;
-import utils.SwitchExploreEnum;
-import utils.getWindowHandle;
+import com.zkr.fqz.until.getWindowHandle;
+import com.zkr.fqz.until.broswers.SwitchExplore;
+import com.zkr.fqz.until.broswers.SwitchExploreEnum;
 
 public class TEST {
 	WebDriver driver=null;

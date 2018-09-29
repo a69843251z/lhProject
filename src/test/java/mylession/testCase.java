@@ -11,9 +11,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import utils.SwitchExplore;
-import utils.SwitchExploreEnum;
-import utils.switchIfream;
+import com.zkr.fqz.until.switchIfream;
+import com.zkr.fqz.until.broswers.SwitchExplore;
+import com.zkr.fqz.until.broswers.SwitchExploreEnum;
 
 public class testCase {
 	WebDriver driver=null;
