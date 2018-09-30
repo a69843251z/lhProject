@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mylession.TEST">
+      <class name="com.zkr.fqz.testScript.testFqz">
         <methods>
-          <include name="pre"/>
-          <include name="changeEX"/>
+          <include name="loginTest"/>
+          <include name="reday"/>
+          <include name="redayClass"/>
         </methods>
-      </class> <!-- mylession.TEST -->
+      </class> <!-- com.zkr.fqz.testScript.testFqz -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
