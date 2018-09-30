@@ -7,10 +7,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class readProperties {
+public class ReadProperties {
 	
 	Properties pro;
-	public readProperties(){
+	public ReadProperties(){
 		// TODO Auto-generated constructor stub
 		getProperties();
 	}
@@ -34,7 +34,7 @@ public class readProperties {
 		return value;
 	}
 	public static void main(String[] args) {
-		readProperties re=new readProperties();
+		ReadProperties re=new ReadProperties();
 		String value=re.getValue("url");
 		System.out.println(value);
 	}
